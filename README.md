@@ -26,7 +26,7 @@ generating and downloading spatial data sets, with a focus on ecological applica
 ### Ecosystem
 Here's a broad overview of JuliaGeo's package ecosystem.
 
-<iframe id="eco-diagram" src="img/ecosystem_diagram.html" width="100%" style="border:none; display:block;"></iframe>
+<iframe id="eco-diagram" src="img/ecosystem_diagram.html" width="100%" style="border:none; display:block;" scrolling="no"></iframe>
 <script>
   const frame = document.getElementById('eco-diagram');
   function resizeFrame() {
