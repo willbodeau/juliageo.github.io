@@ -150,48 +150,6 @@
     .body.row  .pkg { flex: 1; }
     .body.stack .pkg { width: 100%; }
 
-    /* ── TABLET: 2-col, labels become horizontal headers ── */
-    @media (max-width: 680px) {
-      body { padding: 12px; }
-
-      .figure {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-          "title    title"
-          "l-entry  l-entry"
-          "r-entry  v-entry"
-          "l-ops    l-ops"
-          "r-ops    v-ops"
-          "l-data   l-data"
-          "r-data   v-data"
-          "l-viz    l-viz"
-          "viz      viz";
-      }
-
-      /* Horizontal label strip */
-      .lbl {
-        padding: 6px 16px;
-        border-left: none;
-        border-right: none;
-      }
-      .lbl span {
-        writing-mode: horizontal-tb;
-        transform: none;
-        font-size: 13px;
-        letter-spacing: .4px;
-      }
-
-      .title { font-size: 26px; }
-      .col-header { font-size: 17px; }
-      .pkg .name { font-size: 17px; }
-      .pkg .desc { font-size: 13px; }
-      .body { gap: 10px; padding: 10px; }
-
-      /* Viz row: allow wrapping */
-      .ca-viz .body.row { flex-wrap: wrap; }
-      .ca-viz .body.row .pkg { flex: 1 1 calc(50% - 10px); min-width: 140px; }
-    }
-
     /* ── MOBILE: single column ──────────────────────── */
     @media (max-width: 500px) {
       body { padding: 8px; }
