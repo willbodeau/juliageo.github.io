@@ -23,9 +23,11 @@ example of such an organization that will be especially interesting to climate, 
 and ocean scientists. [EcoJulia](https://github.com/EcoJulia) also provides some tools for
 generating and downloading spatial data sets, with a focus on ecological applications.
 
-### JuliaGeo Ecosystem
-Here's a general overview of JuliaGeo's packages to onboard new users into the community. 
-![New User Chart](img/new_user_chart.png)
+### Ecosystem
+Here's a broad overview of JuliaGeo's package ecosystem.
+
+<iframe src="img/ecosystem_diagram.html" width="100%" height="600px" style="border:none;"></iframe>
+
 
 ### Packages
 Here's a partial listing of some of the existing libraries in
