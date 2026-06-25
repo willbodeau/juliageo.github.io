@@ -25,7 +25,7 @@ generating and downloading spatial data sets, with a focus on ecological applica
 
 ### JuliaGeo Ecosystem
 Here's a general overview of JuliaGeo's packages to onboard new users into the community. 
-![New User Chart](new_user_chart.png)
+![New User Chart](img/new_user_chart.png)
 
 ### Packages
 Here's a partial listing of some of the existing libraries in
